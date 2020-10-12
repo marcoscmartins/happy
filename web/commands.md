@@ -5,3 +5,7 @@ Criando o projeto React com typescript
 
 Instalando pacote de icones
 `npm install react-icons`
+
+Adicionando rotas
+`npm install react-router-dom`
+`npm install @types/react-router-dom`
