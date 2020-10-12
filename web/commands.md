@@ -9,3 +9,11 @@ Instalando pacote de icones
 Adicionando rotas
 `npm install react-router-dom`
 `npm install @types/react-router-dom`
+
+Leaflet
+`npm install leaflet react-leaflet`
+`npm install @types/react-leaflet`
+
+TileLayer = OpenStreetMap
+
+MapBox
