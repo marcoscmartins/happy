@@ -16,7 +16,7 @@
     <img alt="by marcoscmartins" src="https://img.shields.io/badge/made%20by-marcoscmartins-green">
  </a>
  
-  <a href="https://github.com/marcoscmartins/happy/commits/master">
+  <a href="https://github.com/marcoscmartins/happy/commits/main">
     <img alt="last commit" src="https://img.shields.io/badge/last%20commit-june-brightgreen">
   </a>
 </h1> 
