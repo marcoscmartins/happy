@@ -31,3 +31,25 @@ para executar a aplicação
 # Configurando o banco de dados
 
 `yarn add typeorm sqlite3`
+
+Alterando o package.json para habilitar o typeorm com ts. Adicionar essa linha aos scripts
+"typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+
+Adiciono duas linhas no ormconfig
+"migrations": [
+    "./src/database/migrations/*.ts"
+],
+"cli": {
+    "migrationsDir": "./src/database/migrations"
+}
+
+E agora podemos fazer o comando
+`yarn typeorm migration:create -n create_orphanages`
+
+Depois de implementada a migration
+`yarn typeorm migration:run`
+
+Para desfazer
+`yarn typeorm migration:revert`
+
+Utilizar o beekeeper studio
