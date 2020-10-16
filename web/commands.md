@@ -17,3 +17,9 @@ Leaflet
 TileLayer = OpenStreetMap
 
 MapBox
+
+------------------
+
+## Atualizando 
+`choco upgrade nodejs-lts`
+`choco upgrade yarn`
