@@ -57,3 +57,6 @@ Utilizar o beekeeper studio
 Para lidar com upload de imagens 
 `yarn add multer`
 `yarn add @types/multer`
+
+Para capturar os erros no express
+`yarn add express-async-errors`
