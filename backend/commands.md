@@ -60,3 +60,11 @@ Para lidar com upload de imagens
 
 Para capturar os erros no express
 `yarn add express-async-errors`
+
+Para validação
+`yarn add yup`
+`yarn add @types/yup`
+
+Adicionando o cors
+`yarn add cors`
+`yarn add @types/cors` 
